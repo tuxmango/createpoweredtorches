@@ -12,18 +12,25 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import xyz.studioember.cpt.init.ModBlockEntities;
+import xyz.studioember.cpt.init.ModBlocks;
+import xyz.studioember.cpt.init.ModCreativeModeTabs;
+import xyz.studioember.cpt.init.ModItems;
 
-@Mod(CreatePoweredTorches.MODID)
-public class CreatePoweredTorches {
-    public static final String MODID = "cpt";
+@Mod(Cpt.MOD_ID)
+public class Cpt {
+    public static final String MOD_ID = "cpt";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public CreatePoweredTorches(IEventBus modEventBus, ModContainer modContainer) {
+    public Cpt(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
-
         NeoForge.EVENT_BUS.register(this);
-
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

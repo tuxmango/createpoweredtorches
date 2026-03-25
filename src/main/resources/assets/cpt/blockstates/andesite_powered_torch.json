@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "light_level=0": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=1": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=2": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=3": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=4": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=5": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=6": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=7": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=8": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=9": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=10": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=11": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=12": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=13": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=14": { "model": "cpt:block/andesite_powered_torch" },
+    "light_level=15": { "model": "cpt:block/andesite_powered_torch" }
+  }
+}

@@ -9,15 +9,15 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
-@Mod(value = CreatePoweredTorches.MODID, dist = Dist.CLIENT)
-@EventBusSubscriber(modid = CreatePoweredTorches.MODID, value = Dist.CLIENT)
-public class CreatePoweredTorchesClient {
-    public CreatePoweredTorchesClient(ModContainer container) {
+@Mod(value = Cpt.MOD_ID, dist = Dist.CLIENT)
+@EventBusSubscriber(modid = Cpt.MOD_ID, value = Dist.CLIENT)
+public class CptClient {
+    public CptClient(ModContainer container) {
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        CreatePoweredTorches.LOGGER.info("HELLO FROM CLIENT SETUP");
+        Cpt.LOGGER.info("HELLO FROM CLIENT SETUP");
     }
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "TAT",
+    " S "
+  ],
+  "key": {
+    "E": { "item": "create:electron_tube" },
+    "T": { "item": "minecraft:torch" },
+    "A": { "item": "create:andesite_casing" },
+    "S": { "item": "create:shaft" }
+  },
+  "result": {
+    "id": "cpt:andesite_powered_torch",
+    "count": 1
+  }
+}

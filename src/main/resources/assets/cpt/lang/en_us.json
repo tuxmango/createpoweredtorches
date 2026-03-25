@@ -1,13 +1,4 @@
 {
-  "itemGroup.cpt": "Example Mod Tab",
-  "block.cpt.example_block": "Example Block",
-  "item.cpt.example_item": "Example Item",
-
-  "cpt.configuration.title": "Create: Powered Torches Configs",
-  "cpt.configuration.section.cpt.common.toml": "Create: Powered Torches Configs",
-  "cpt.configuration.section.cpt.common.toml.title": "Create: Powered Torches Configs",
-  "cpt.configuration.items": "Item List",
-  "cpt.configuration.logDirtBlock": "Log Dirt Block",
-  "cpt.configuration.magicNumberIntroduction": "Magic Number Text",
-  "cpt.configuration.magicNumber": "Magic Number"
+  "block.cpt.andesite_powered_torch": "Andesite Powered Torch",
+  "item.cpt.andesite_powered_torch": "Andesite Powered Torch"
 }
